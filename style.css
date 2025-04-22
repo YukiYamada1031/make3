@@ -158,3 +158,41 @@ a:hover{
   font-size: 12px;
   text-align: center;
 }
+
+.page-header{
+  background-color: #ffed58;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding: 60px 0 100px;
+  text-align: center;
+}
+
+.page-header .page-title .ja{
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5ox;
+}
+
+.page-header .page-title .en{
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.page-haad-text{
+  padding: 50px 0;
+  text-align: center;
+}
+
+.page-haad-text .title{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.page-haad-text .text{
+  font-size: 14px;
+  line-height: 1.8;
+}
