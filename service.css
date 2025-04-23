@@ -35,3 +35,48 @@
 .detail .item .text .description{
   line-height: 1.8;
 }
+
+.flow{
+  margin-bottom: 100px;
+}
+
+.flow .item{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.flow .item .step{
+  width: 160px;
+  height: 140px;
+  background-color: #ffed58;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  font-weight: 700;
+  flex-shrink: 0;
+  padding-top: 20px;
+  margin-right: 7%;
+  text-align: center;
+}
+
+.flow .item .step .title{
+  display: block;
+  font-size: 18ox;
+}
+
+.flow .item .step .no{
+  display: block;
+  font-size: 56px;
+}
+
+.flow .item .text dt{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.flow .item .text dd{
+  line-height: 1.8;
+}
+
+.flow .item .text a{
+  text-decoration: underline;
+}
